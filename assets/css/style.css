@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #67a4d3;
+  color: #59ADFF;
 }
 
 a:hover {
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #67a4d3;
+  background: #59ADFF;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #67a4d3;
+  border: 6px solid #59ADFF;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #67a4d3;
+  background: #FFD9D9;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #67a4d3;
+  color: #59ADFF;
 }
 
 /*--------------------------------------------------------------
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #67a4d3;
+  color: #59ADFF;
   letter-spacing: 1px;
 }
 
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a:hover {
-  color: #67a4d3;
+  color: #59ADFF;
 }
 
 @media (max-width: 992px) {
@@ -360,7 +360,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #67a4d3;
+  background: #59ADFF;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -390,7 +390,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #67a4d3;
+  color: #59ADFF;
 }
 
 .about .content p:last-child {
@@ -415,7 +415,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #67a4d3;
+  background: #59ADFF;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -467,7 +467,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #67a4d3;
+  background-color: #59ADFF;
 }
 
 /*--------------------------------------------------------------
@@ -484,7 +484,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #67a4d3;
+  border-left: 2px solid #59ADFF;
   position: relative;
 }
 
@@ -494,7 +494,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #67a4d3;
+  color: #59ADFF;
   margin-bottom: 10px;
 }
 
@@ -528,7 +528,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #67a4d3;
+  border: 2px solid #59ADFF;
 }
 
 /*--------------------------------------------------------------
@@ -562,7 +562,9 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #67a4d3;
+  background: #b5b5b5;
+  color: #ffffff;
+  border-radius: 20px;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -643,7 +645,6 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
   font-size: 14px;
-  text-transform: uppercase;
   padding: 0;
   margin: 0;
 }
@@ -889,7 +890,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #67a4d3 !important;
+  background-color: #59ADFF !important;
 }
 
 @media (min-width: 992px) {
@@ -908,7 +909,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #67a4d3;
+  color: #59ADFF;
   float: left;
   width: 44px;
   height: 44px;
@@ -940,7 +941,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #67a4d3;
+  background: #59ADFF;
   color: #fff;
 }
 
@@ -1018,7 +1019,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #67a4d3;
+  background: #59ADFF;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1076,7 +1077,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #67a4d3 !important;
+  background-color: #59ADFF !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1144,7 +1145,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #67a4d3;
+  background: #FFD9D9;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
