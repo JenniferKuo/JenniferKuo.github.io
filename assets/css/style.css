@@ -1170,3 +1170,18 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+#tags > li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #272829;
+    margin-bottom: 5px;
+    background: #b5b5b5;
+    color: #ffffff;
+    border-radius: 20px;
+  
+}
