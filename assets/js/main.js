@@ -1,4 +1,3 @@
-let currentFile = "Belongings";
 
 !(function($) {
   "use strict";

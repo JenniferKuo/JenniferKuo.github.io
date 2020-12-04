@@ -276,7 +276,8 @@
                 </p>
                 <div class="portfolio-links">
                   <a href="assets/img/Belongings/belongings-1.png" data-gall="belongingsGallery" class="venobox" title="Belongings"><i class="bx bx-images"></i></a>
-                  <!-- <a href="portfolio-details.html" data-gall="belongingsDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                  <!-- <a class="venobox" data-vbtype="video" href="https://youtu.be/M78b02EF6F4"><i class="bx bxl-youtube"></i></a> -->
+                  <a href="#portfolio-container" onclick="initElement('Belongings')" data-vbtype="inline" class="venobox" title="Portfolio Details"><i class="bx bx-link-external"></i></a>
                   <a href="https://github.com/JenniferKuo/BeaconSide"><i class="bx bxl-github"></i></a>
                   <a href="assets/img/Belongings/belongings-2.png" data-gall="belongingsGallery" class="venobox" title="Belongings"></a>
                   <a href="assets/img/Belongings/belongings-3.png" data-gall="belongingsGallery" class="venobox" title="Belongings"></a>
@@ -294,7 +295,7 @@
                 </p>
                 <div class="portfolio-links">
                   <a href="assets/img/TradeWise/tradwise1.jpg" data-gall="tradeWiseGallery" class="venobox" title="TradeWise"><i class="bx bx-images"></i></a>
-                  <!-- <a href="portfolio-details.html" data-gall="belongingsDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                  <a href="#portfolio-container" onclick="initElement('TradeWise')" data-vbtype="inline" class="venobox" title="Portfolio Details"><i class="bx bx-link-external"></i></a>
                   <a href="https://github.com/JenniferKuo/TradeWise"><i class="bx bxl-github"></i></a>
                   <a href="assets/img/TradeWise/tradwise2.jpg" data-gall="tradeWiseGallery" class="venobox" title="TradeWise"></a>
                   <a href="assets/img/TradeWise/tradwise3.jpg" data-gall="tradeWiseGallery" class="venobox" title="TradeWise"></a>
@@ -313,8 +314,7 @@
                 <p>An auto complete online notebook for law, which won the Law Hackthon Prize. Features include law term auto complete, law suggestion, and law auto searching. I handled the frontend part of this work.
                 </p>
                 <div class="portfolio-links">
-                  <!-- <a href="assets/img/TradeWise/tradwise1.png" data-gall="belongingsGallery" class="venobox" title="Belongings"><i class="bx bx-images"></i></a> -->
-                  <!-- <a href="portfolio-details.html" data-gall="belongingsDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link-external"></i></a> -->
+                  <a href="#portfolio-container" onclick="initElement('Eunomia')" data-vbtype="inline" class="venobox" title="Portfolio Details"><i class="bx bx-link-external"></i></a>
                   <a href="https://github.com/JenniferKuo/Eunomia"><i class="bx bxl-github"></i></a>
                 </div>
               </div>
@@ -428,6 +428,43 @@
     </div>
   </footer><!-- End Footer -->
 
+  <!-- Portolio Details Template -->
+  <div id="portfolio-container" style="display:none"></div>
+  <template>
+  <main id="portfolio-template" >
+    <!-- ======= Portfolio Details ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="portfolio-title" id="title">Title</h2>
+            <div class="owl-carousel portfolio-details-carousel" id="gallery">
+            </div>
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Project information</h3>
+            <ul id="tags">
+            </ul>
+            <ul>
+              <li><strong>Project year: </strong><span id="year"></span></li>
+              <li><strong>Source code</strong>: <a href="#" id="source">www.example.com</a></li>
+            </ul>
+
+            <p id="descriptison"></p>
+
+            <div id="video">
+              <iframe id="youtube" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details -->
+  
+  </main><!-- End #main -->
+</template>
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>
 
@@ -446,6 +483,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/portfolio.js"></script>
 
 </body>
 
