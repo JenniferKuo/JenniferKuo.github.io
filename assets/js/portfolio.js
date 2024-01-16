@@ -1,4 +1,12 @@
 let details = {
+    "FileSharing": {
+        "title": "File Sharing System",
+        "year": "2023",
+        "gallery": ["assets/img/FileSharing/demo.png"],
+        "tags": ["Java", "Angular", "Docker", "AWS S3", "MongoDB"],
+        "source": "https://github.com/JenniferKuo/file-sharing-app",
+        "description": "This demo provide a simple and intuitive platform for users to upload, download, and share files. The system is built using Angular for the frontend, Spring Boot for the backend, and MongoDB as the database. AWS S3 is utilized for storing the actual files, ensuring scalability and reliability. Users can use docker image to easily set up this service on their local machine."
+    },
     "Belongings": {
         "title": "Belongings",
         "year": "2018",
