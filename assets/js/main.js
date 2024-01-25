@@ -184,3 +184,9 @@
   });
 
 })(jQuery);
+
+// Hide Spline watermark
+window.onload = function() {
+  var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+  shadowRoot.querySelector('#logo').style.opacity = '0';
+}

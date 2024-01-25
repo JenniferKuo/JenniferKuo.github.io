@@ -11,6 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  margin: 0; /* 清除預設的margin */
+  padding: 0; /* 清除預設的padding */
 }
 
 a {
@@ -1214,4 +1216,39 @@ section {
   background: #d4d4d4;
   color: #ffffff;
   border-radius: 20px;
+}
+
+/* 設定固定的文字大標題 */
+.fixed-title-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 20px;
+  z-index: 1;
+  font-weight: bolder;
+  text-align: left;
+  opacity: 80%;
+}
+
+.fixed-title-top h1 {
+  font-weight: 900;
+  font-size: 100px;
+  position: relative;
+}
+
+.fixed-title-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 20px;
+  z-index: 1;
+  font-weight: bolder;
+  text-align: left;
+  opacity: 80%;
+}
+
+spline-viewer {
+  height: 100vh;
 }
