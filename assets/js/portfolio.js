@@ -1,4 +1,28 @@
 let details = {
+    "CryptoTrading": {
+        "title": "Crypto Trading System",
+        "year": "2024",
+        "gallery": ["assets/img/CryptoTrading/tradingview.png"],
+        "tags": ["Python", "API", "WebSocket", "AWS", "Linux"],
+        "source": "https://github.com/JenniferKuo/crypto-cross-exchange",
+        "description": "A Python-based project designed to streamline cryptocurrency trading across multiple exchanges. This system integrates various exchange APIs to manage client accounts efficiently. It features automated order execution, real-time position monitoring, daily performance reports, and customizable alert notifications. The project is fully deployed on AWS, ensuring scalability, reliability, and secure operation."
+    },
+    "Birb": {
+        "title": "Solana Meme Token: $BIRB",
+        "year": "2024",
+        "gallery": ["assets/img/Birb/birb.png"],
+        "tags": ["Solana", "NFT", "Web3"],
+        "source": "8Dg1FBADU1n9Dgseydby5QGnMkA94sZBpgqNA7wLas36",
+        "description": "Created $BIRB to build a community centered around bird enthusiasts, incentivizing users and fostering an engaging ecosystem with token rewards. Successfully issued $BIRB tokens with airdrops, listed on decentralized exchanges, and expanded the project by minting randomized $BIRB-themed NFTs."
+    },
+    "TCB": {
+        "title": "TCB Bank Authentication System",
+        "year": "2023",
+        "gallery": ["assets/img/TCB/frame.png"],
+        "tags": ["Spring Boot", "Java", "Angular", "Figma"],
+        "source": "",
+        "description": "Implemented four authentication and authorization methods, including internet banking credentials, chip financial cards, citizen digital certificates, and financial institution certificates. Enabled seamless Single Sign-On (SSO) functionality, enhancing security and user convenience across the banking platform."
+    },
     "FileSharing": {
         "title": "File Sharing System",
         "year": "2023",
