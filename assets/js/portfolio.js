@@ -13,7 +13,7 @@ let details = {
         "gallery": ["assets/img/Birb/birb.png"],
         "tags": ["Solana", "NFT", "Web3"],
         "source": "8Dg1FBADU1n9Dgseydby5QGnMkA94sZBpgqNA7wLas36",
-        "description": "Created $BIRB to build a community centered around bird enthusiasts, incentivizing users and fostering an engaging ecosystem with token rewards. Successfully issued $BIRB tokens with airdrops, listed on decentralized exchanges, and expanded the project by minting randomized $BIRB-themed NFTs."
+        "description": "Created $BIRB to build a community centered around bird enthusiasts, incentivizing users and fostering an engaging ecosystem with token rewards. Planned the issuance of $BIRB tokens with airdrops and the launch of randomized $BIRB-themed NFTs to build a community for bird enthusiasts, fostering engagement through token rewards and decentralized exchange listings."
     },
     "TCB": {
         "title": "TCB Bank Authentication System",
